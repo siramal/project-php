@@ -30,7 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 
-    <title>asdf</title>
+    <title>Perbandingan Angka</title>
   </head>
   <body class=" bg-dark px-5">
         <div class="container">
@@ -45,7 +45,7 @@
                                     <h3>cek perbandingan angka</h3>
                                     <form method="post" >
                                         <div class="row justify-content-center pt-3">
-                                            <div class="col-lg-4 ">
+                                            <div class="col-lg-4">
                                                 <input type="number" class="form-control fw-bold" name="number1" placeholder="angka pertama" value="<?php echo $number1;?>" required>
                                             </div>
                                             <div class="col-lg-4 ">
