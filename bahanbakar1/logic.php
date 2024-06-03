@@ -34,7 +34,6 @@ class Pembelian extends DataBahanBakar {
     }
     
     public function cetakBukti() {
-        echo "..................................<br>";
         echo "Jenis Bahan Bakar : " . $this->jenisYangDipilih . "<br>";
         echo "Total Liter : " . $this->totalLiter . "<br>";
         echo "Harga bayar: Rp" . number_format($this->totalPembayaran, 0, ',', '.') . "<br>";
